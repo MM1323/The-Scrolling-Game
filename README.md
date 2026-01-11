@@ -1,3 +1,18 @@
 # The-Scrolling-Game
 
-For this project, I created a startup simulator. The main objective is to collect money so that they can be successful. The person can choose the initial difficulty and they can only go faster. In other words, they can not get slower than the difficulty. Another thing that I added is once the user hits a certain score (100) then another obstacle is added and the speed (difficulty) increases permanently. 
+Scrolling arcade game where you collect money, avoid obstacles, and ramp the
+difficulty as you score higher.
+
+## Overview
+- Start by choosing an initial difficulty (speed).
+- Difficulty only increases over time; it never slows down.
+- At score 100, a new obstacle appears and speed increases permanently.
+
+## Run
+Compile and run using your preferred Java toolchain, or launch via the
+provided launcher class.
+
+```bash
+javac *.java
+java GameLauncher
+```
